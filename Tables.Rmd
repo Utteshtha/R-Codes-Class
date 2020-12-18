@@ -6,7 +6,7 @@ output: word_document
 ---
 
 ```{r}
-url=read.table("D:\\IMT\\Term 2\\DS&A\\R markdown\\Tomato First.csv",header=TRUE,sep=",")
+url=read.table("C:\\Users\\Sangeeta chauhan\\Downloads\\bowens.csv",header=TRUE,sep=",")
 head(url)
 ```
 
@@ -14,4 +14,3 @@ Loading Built in data sets
 ```{r}
 data("mtcars")
 head(mtcars, 7)
-```
